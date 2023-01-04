@@ -1,9 +1,10 @@
 import React from 'react'
 import Image from "next/image";
 import CustomButton from './CustomButton';
+
 type Props = {}
 
-export default function Homepage({ }: Props) {
+export default function AppleBuyPage({ }: Props) {
     return (
         <section className='sticky top-0 mx-auto flex h-screen max-w-[1350px] items-center justify-between px-8 overflow-hidden'>
             <div className='space-y-8'>

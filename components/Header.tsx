@@ -26,15 +26,24 @@ export default function Header({ }: Props) {
                 </Link>
             </div>
             <div className='hidden md:flex flex-1 items-center space-x-8'>
-                <a className="headerLink">Mac</a>
-                <a className="headerLink">Ipad</a>
-                <a className="headerLink">Iphone</a>
-                <a className="headerLink">Music</a>
-                <a className="headerLink">Products</a>
-                <a className="headerLink">Explore</a>
-                <a className="headerLink">Support</a>
-                <a className="headerLink">Business</a>
-                <a className="headerLink">Where to Buy</a>
+                <Link href='/mac'>
+                    <div className="headerLink">Mac</div>
+                </Link>
+                <Link href='/ipad'>
+                    <div className="headerLink">Ipad</div>
+                </Link>
+                <Link href='/iphone'>
+                    <div className="headerLink">Iphone</div>
+                </Link>
+                <Link href='/applemusic'>
+                    <div className="headerLink">Music</div>
+                </Link>
+                <Link href='/applesupport'>
+                    <div className="headerLink">Support</div>
+                </Link>
+                <Link href='/applebuy'>
+                    <div className="headerLink">Where to Buy</div>
+                </Link>
             </div>
             <div className='flex items-center justify-center gap-x-4 md:w-1/5'>
                 <SearchIcon className="headerIcon" />
@@ -46,7 +55,6 @@ export default function Header({ }: Props) {
                         <ShoppingBagIcon className="headerIcon" />
                     </div>
                 </Link>
-
                 <UserIcon className="headerIcon" />
             </div>
         </header>
