@@ -38,6 +38,9 @@ export default function Header({ }: Props) {
                 <Link href='/applemusic'>
                     <div className="headerLink">Music</div>
                 </Link>
+                <Link href='/applemusic'>
+                    <div className="headerLink"></div>
+                </Link>
                 <Link href='/applesupport'>
                     <div className="headerLink">Support</div>
                 </Link>
