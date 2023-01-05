@@ -12,7 +12,7 @@ type Props = {}
 
 export default function Header({ }: Props) {
     return (
-        <header className='sticky top-0 z-30 flex w-full items-center justify-between bg-zinc-900 p-1'>
+        <header className='sticky top-0 z-50 flex w-full items-center justify-between bg-zinc-900 p-1'>
             <div className='flex items-center justify-center md:w-1/5'>
                 <Link href="/">
                     <div className='relative h-10 w-5 cursor-pointer opacity-75 transition hover:opacity-100'>
@@ -30,10 +30,10 @@ export default function Header({ }: Props) {
                     <div className="headerLink">Mac</div>
                 </Link>
                 <Link href='/ipad'>
-                    <div className="headerLink">Ipad</div>
+                    <div className="headerLink">iPad</div>
                 </Link>
                 <Link href='/iphone'>
-                    <div className="headerLink">Iphone</div>
+                    <div className="headerLink">iPhone</div>
                 </Link>
                 <Link href='/applemusic'>
                     <div className="headerLink">Music</div>

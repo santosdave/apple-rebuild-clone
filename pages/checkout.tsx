@@ -6,7 +6,7 @@ export default function checkout({ }: Props) {
     return (
         <div>
             <Head>
-                <title>Apple Rebuild - Kenya</title>
+                <title>Bag - Apple (KE)</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
         </div>

@@ -10,7 +10,7 @@ export default function IpadPage({ }: Props) {
             <div className='space-y-8'>
                 <h1 className='space-y-3 text-5xl font-semibold tracking-wide lg:text-6xl xl:text-7xl'>
                     <span className='block bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent'>
-                       Ipad
+                       iPad
                     </span>
                     <span className="block">Lovable.</span>
                     <span className="block">Drawable. Magical.</span>

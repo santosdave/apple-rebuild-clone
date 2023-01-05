@@ -10,7 +10,7 @@ export default function applebuy({}: Props) {
   return (
     <>
     <Head>
-        <title>Apple Rebuild - Kenya</title>
+        <title>Where to buy - Apple (KE)</title>
         <link rel="icon" href="/favicon.ico" />
     </Head>
     <Header />

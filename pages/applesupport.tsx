@@ -10,7 +10,7 @@ export default function applesupport({ }: Props) {
     return (
         <>
             <Head>
-                <title>NotOfficial Apple Support - Kenya</title>
+                <title>NotOfficial Apple Support (KE)</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header />
