@@ -13,7 +13,7 @@ export default function AppleSupportPage({ }: Props) {
                        Apple Support
                     </span>
                     <span className="block text-white opacity-60">Choose a product</span>
-                    <span className="block text-white opacity-60">We'll find you the best solution.</span>
+                    <span className="block text-white opacity-60">We&#39ll find you the best solution.</span>
                 </h1>
                 <div className="space-x-8">
                     <CustomButton title='Buy Now' />
